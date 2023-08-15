@@ -2,8 +2,8 @@
 
 ## Contacts
 ### Developers
-* Park Ju-hwan
-  - Email: Not provided
+* Park Joo-hwan
+  - Email: wnghks6884@naver.com
 * Oh Se-hyeun 
   - Email: somae604@naver.com
 * Jang Sung-hyuk 
