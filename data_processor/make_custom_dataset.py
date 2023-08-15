@@ -55,6 +55,22 @@ dataset_directory = "../datasets/b057/"
 dataset = CustomDataset(dataset_directory)
 
 image, polygons, labels = dataset[0]
-print(image)
-print(polygons)
-print(labels)
+
+data = [] 
+for a, b, c in dataset:
+    for i in c: 
+        if i not in data:
+            data.append(i)
+
+print(data)
+
+class_labels = {
+    "ortho": 0,
+    "gcr": 1,
+    "mcr": 2,
+    "cecr": 3,
+    "am": 4,
+    "tar1": 5,
+    "tar2": 6,
+    "tar3": 7
+}
