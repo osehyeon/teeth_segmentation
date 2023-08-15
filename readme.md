@@ -2,9 +2,12 @@
 
 ## Contacts
 ### Developers
-* Park Ju-hwan
+* Park Joo-hwan
+  - Email: wnghks6884@naver.com
 * Oh Se-hyeun 
-* Jang Sung-hyuk
+  - Email: somae604@naver.com
+* Jang Sung-hyuk 
+  - Email: robotjang01@gmail.com
   
 ## annotation format
 ```json
