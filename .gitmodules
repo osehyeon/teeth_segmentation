@@ -1,0 +1,6 @@
+[submodule "labelme2coco"]
+	path = labelme2coco
+	url = https://github.com/Tony607/labelme2coco.git
+[submodule "detectron2"]
+	path = detectron2
+	url = https://github.com/facebookresearch/detectron2.git
