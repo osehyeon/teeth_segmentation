@@ -1,5 +1,15 @@
 # Dentistry Dataton 
 
+## Contacts
+### PI
+* Park Joo Hwan 
+### Developers
+* Oh Se Hyeon 
+* Jang Sung Hyuk 
+
+## cConf
+
+
 
 ```json
 {
