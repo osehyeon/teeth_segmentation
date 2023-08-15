@@ -1,9 +1,8 @@
 # Dentistry Dataton 
 
 ## Contacts
-### PI
-* Park Joo Hwan 
 ### Developers
+Park Joo Hwanㅍ
 * Oh Se Hyeon 
 * Jang Sung Hyuk 
 
