@@ -5,7 +5,7 @@
 * Park Ju-hwan
   - Email: Not provided
 * Oh Se-hyeun 
-  - Email: somae604@maver.com
+  - Email: somae604@naver.com
 * Jang Sung-hyuk 
   - Email: robotjang01@gmail.com
   
