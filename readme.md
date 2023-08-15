@@ -30,3 +30,12 @@
   "imageData": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgG..."
 }
 ```
+
+## input data
+![Input-data](docs/input.jpg)
+
+## result
+![Result](docs/result.jpg)
+
+
+
