@@ -2,13 +2,10 @@
 
 ## Contacts
 ### Developers
-Park Joo Hwanㅍ
-* Oh Se Hyeon 
-* Jang Sung Hyuk 
-
-
-
-
+* Park Ju-hwan
+* Oh Se-hyeun 
+* Jang Sung-hyuk
+  
 ## annotation format
 ```json
 {
