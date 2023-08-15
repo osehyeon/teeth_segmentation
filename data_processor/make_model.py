@@ -5,10 +5,24 @@ from PIL import Image
 import json
 import os
 
+class_labels = {
+    "ortho": 0,
+    "gcr": 1,
+    "mcr": 2,
+    "cecr": 3,
+    "am" : 4,
+    "zircr": 5,
+    "tar1": 6, 
+    "tar2": 7,
+    "tar3": 8
+}
+
+
 class CustomDataset(Dataset):
     def __init__(self, img_dir, json_dir):
         self.img_dir = img_dir
         self.json_files = [f for f in os.listdir(json_dir) if f.endswith('.json')]
+        self.json_dir = json_dir  # Add this line to store the JSON directory path
 
     def __len__(self):
         return len(self.json_files)
@@ -24,8 +38,18 @@ class CustomDataset(Dataset):
             for shape in data['shapes']:
                 box = [point[0] for point in shape['points']] + [point[1] for point in shape['points']]
                 boxes.append(box)
-                labels.append(1)  # 예시로 1을 사용. 실제 클래스를 정의해야 함.
+                
+                # Get the shape's label from the JSON data
+                shape_label = shape['label']
+                class_label = class_labels.get(shape_label, -1)  # -1 if label not found
+                labels.append(class_label)
+            
             return F.to_tensor(image), {"boxes": torch.FloatTensor(boxes), "labels": torch.LongTensor(labels)}
+
+
+
+
+
 
 img_dir = '../datasets/images/b057/'
 json_dir = '../datasets/annotations/b057/'
