@@ -3,8 +3,8 @@
 ## Contacts
 ### Developers
 * Park Ju-hwan
-* Oh Se-hyeun 
-* Jang Sung-hyuk
+* Oh Se-hyeun(somae604@maver.com)
+* Jang Sung-hyuk(robotjang01@gmail.com)
   
 ## annotation format
 ```json
