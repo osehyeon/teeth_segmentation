@@ -1,5 +1,7 @@
 # Dentistry Dataton 
 
+Detectron2를 활용한 치아 세그멘테이션 
+
 ## Contacts
 ### Developers
 * Park Joo-hwan
